@@ -5,6 +5,6 @@
     <title>Success</title>
 </head>
 <body>
-    Success.
+    Your email has been sent to <s:property value="to"/>.
 </body>
 </html>
