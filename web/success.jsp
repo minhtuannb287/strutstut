@@ -5,6 +5,6 @@
     <title>Success</title>
 </head>
 <body>
-    Your email has been sent to <s:property value="to"/>.
+    <s:property value="getText('global.success')"/>
 </body>
 </html>
