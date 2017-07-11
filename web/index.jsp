@@ -11,18 +11,13 @@
 <em>The form below uses Google's SMTP server.
     So you need to enter a gmail username and password
 </em>
-<form action="emailer" method="post">
-    <label for="from">From</label>
-    <input type="text" name="from"/><br>
-    <label for="password">Password</label>
-    <input type="password" name="password"/><br>
-    <label for="to">To</label>
-    <input type="text" name="to"/><br>
-    <label for="subject">Subject</label>
-    <input type="text" name="subject"/><br>
-    <label for="body">Body</label>
-    <input type="text" name="body"/><br>
-    <input type="submit" value="Send Email"/>
-</form>
+<s:form action="emailer" method="POST">
+    <s:textfield name="from" label="From"/>
+    <s:password name="password" label="Password"/>
+    <s:textfield name="to" label="To"/>
+    <s:textfield name="subject" label="Subject"/>
+    <s:textfield name="body" label="body"/>
+    <s:submit name="submit" label="Send Email"/>
+</s:form>
 </body>
 </html>
