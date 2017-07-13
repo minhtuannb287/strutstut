@@ -43,5 +43,8 @@
         <action name="locale" class="com.tutorialspoint.struts2.Locale" method="execute">
             <result name="success">/index.jsp</result>
         </action>
+        <action name="system" class="com.tutorialspoint.struts2.SystemDetails" method="execute">
+            <result name="success">/System.jsp</result>
+        </action>
     </package>
 </struts>
